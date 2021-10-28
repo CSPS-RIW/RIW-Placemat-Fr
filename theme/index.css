@@ -1,0 +1,157 @@
+body {
+  background-color: #ECCB9220;
+}
+body header {
+  background-color: #3F2A56;
+  color: #FFF;
+  text-align: center;
+  padding: 0.5rem 3rem;
+}
+body header .logos .logo1 img {
+  width: 15rem;
+}
+body header .logos .logo2 img {
+  width: 3rem;
+}
+body main {
+  margin-bottom: 80px;
+  --bs-gap: 1rem;
+}
+body main h2 {
+  padding: 1rem 0;
+}
+body main .accordion-item {
+  margin-bottom: 1rem;
+  border-radius: 0 0 20px 0;
+}
+body main .accordion-item .accordion-header {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 0;
+}
+body main .accordion-item .accordion-header .accordion-button {
+  background-color: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 0;
+  font-weight: 500;
+  max-height: 4rem;
+}
+body main .accordion-item .accordion-header .accordion-button .pillarIcon {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+body main .accordion-item button {
+  font-size: 1.45rem;
+}
+body main .accordion-item .card {
+  border: none;
+}
+body main .accordion-item .card .card-header {
+  background-color: #271e3c;
+  color: #FFFFFF;
+  border-radius: 10px 10px 0 0;
+}
+body main .accordion-item .card .card-body {
+  background-color: #edebfa80;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.2);
+}
+body main .accordion-item .card .card-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+body main .accordion-item .card .card-body ul li {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+body main .accordion-item .card .card-body ul li img {
+  margin-right: 0.5rem;
+}
+body main .accordion-item .card .card-body ul li a {
+  color: black;
+}
+body main .accordion-item .card .card-body ul li:nth-child(even) {
+  background-color: #cabde690;
+}
+body main .accordion-item .card .card-body .nested {
+  padding-left: 1.5rem;
+}
+body main p {
+  text-align: center;
+}
+body main p a {
+  color: black;
+}
+body main .canadaLogo {
+  display: flex;
+  justify-content: space-between;
+}
+body main .canadaLogo .CSPS-written {
+  width: 15rem;
+}
+body main .canadaLogo .canada-logo {
+  width: 6rem;
+}
+body footer {
+  background-color: #3F2A56;
+  color: #FFF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.7rem 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body footer p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+body footer img {
+  margin-right: 0.4rem;
+}
+body footer span {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+  }
+  main .accordion-item .accordion-button {
+    font-size: 1.2rem;
+  }
+  main .accordion-item .accordion-body h4 {
+    font-size: 1.2rem;
+  }
+  main .accordion-item .accordion-body .card .card-body {
+    padding: 0.5rem;
+  }
+  main .accordion-item .accordion-body .card .card-body ul li {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+  footer {
+    padding: 0.3rem 2rem 0.5rem 2rem !important;
+  }
+  footer p {
+    font-size: 0.8rem !important;
+    margin-bottom: 0;
+  }
+  footer span {
+    font-size: 0.7rem !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}/*# sourceMappingURL=index.css.map */
